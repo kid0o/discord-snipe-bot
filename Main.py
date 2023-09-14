@@ -11,7 +11,7 @@ from discord.ext.commands import *
 from framework.logger import Logger
 
 # User Configuration (edit stuff here)
-owner = "EMPTY_USERNAME#0000"  # Replace 'EMPTY_USERNAME#0000' with your Discord username
+owner = "kid0o"  # Replace 'EMPTY_USERNAME#0000' with your Discord username
 
 # Variables
 botVer = 'v1.2.1'
@@ -126,7 +126,7 @@ async def editsnipe(ctx):
 
 # Initialization
 token = framework.auth.get_token()
-if token != "": 
+if token != "MTEyNzYxMDc4MjEzODUwNzI2NA.GjcPjt.k3qogAntyeqzMKytbOoB6d00VMQKo4fDLoqlhQ": 
     try: client.run(token)
     except Exception as exc:
         print(f"[main/CLIENT] Error: Unable to start client: {type(exc).__name__}: {exc}")
